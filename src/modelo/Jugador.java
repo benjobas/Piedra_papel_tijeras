@@ -2,7 +2,7 @@ package modelo;
 
 import java.util.Random;
 
-public class Jugador implements Runnable {
+public class Jugador {
 
     public enum Jugada {
         PIEDRA, PAPEL, TIJERA;
@@ -14,44 +14,20 @@ public class Jugador implements Runnable {
         }
     }
 
-    private final int id;
     private final String nombre;
     private final Random random;
-    private final Jugada preferida;
-
     private int victorias;
     private boolean eliminado;
-    private volatile Jugada jugadaActual;
 
-    private Combate combateActual;
-
-    public Jugador(int id, String nombre) {
-        this.id = id;
+    public Jugador(String nombre) {
         this.nombre = nombre;
         this.random = new Random();
-        this.preferida = Jugada.values()[this.random.nextInt(3)];
         this.victorias = 0;
         this.eliminado = false;
     }
 
-    public void prepararCombate(Combate combate) {
-        this.combateActual = combate;
-        this.jugadaActual = null;
-    }
-
     public Jugada decidirJugada() {
-        Jugada elegida;
-        if (random.nextInt(100) < 50) {
-            elegida = preferida;
-        } else {
-            elegida = Jugada.values()[random.nextInt(3)];
-        }
-        this.jugadaActual = elegida;
-        return elegida;
-    }
-
-    public void run() {
-        combateActual.disputar(this);
+        return Jugada.values()[random.nextInt(3)];
     }
 
     public void sumarVictoria() {
@@ -60,10 +36,6 @@ public class Jugador implements Runnable {
 
     public void eliminar() {
         this.eliminado = true;
-    }
-
-    public int getId() {
-        return id;
     }
 
     public String getNombre() {
@@ -76,9 +48,5 @@ public class Jugador implements Runnable {
 
     public boolean estaEliminado() {
         return eliminado;
-    }
-
-    public Jugada getJugadaActual() {
-        return jugadaActual;
     }
 }

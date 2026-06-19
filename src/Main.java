@@ -1,7 +1,6 @@
 import config.Config;
 import modelo.Jugador;
 import torneo.Torneo;
-import visual.Renderer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -16,18 +15,11 @@ public class Main {
         List<Jugador> jugadores = crearJugadores(cantidad);
 
         Torneo torneo = new Torneo(jugadores);
-        Renderer renderer = new Renderer(torneo);
-        Thread hiloRender = new Thread(renderer, "Renderer");
+        Jugador campeon = torneo.ejecutar();
 
-        hiloRender.start();
-        torneo.ejecutar();
-        renderer.detener();
-
-        try {
-            hiloRender.join();
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
+        System.out.println();
+        System.out.println("CAMPEON DEL TORNEO: " + campeon.getNombre()
+            + " (" + campeon.getVictorias() + " combates ganados)");
         scanner.close();
     }
 
@@ -57,7 +49,7 @@ public class Main {
         Collections.shuffle(nombres);
         List<Jugador> jugadores = new ArrayList<>();
         for (int i = 0; i < cantidad; i++) {
-            jugadores.add(new Jugador(i + 1, nombres.get(i)));
+            jugadores.add(new Jugador(nombres.get(i)));
         }
         return jugadores;
     }

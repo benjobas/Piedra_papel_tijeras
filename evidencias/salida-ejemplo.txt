@@ -1,94 +1,49 @@
-[RONDA] Inicia ronda 1 con 16 jugadores
-[SYNC] Arena 1 ocupada, quedan libres 3
-[SYNC] Arena 2 ocupada, quedan libres 2
-[SYNC] Arena 3 ocupada, quedan libres 1
-[SYNC] Arena 4 ocupada, quedan libres 0
-[COMBATE] Achilles vs Tsubasa comienza en la arena 3
-[COMBATE] Pollux vs Denethor comienza en la arena 2
-[COMBATE] Hector vs Fenrir comienza en la arena 1
-[COMBATE] Tristan vs Eomer comienza en la arena 4
-[COMBATE] Achilles y Tsubasa empatan con PIEDRA
-[SYNC] Arbitro registra combate 1: gana Pollux
-[SYNC] Arbitro registra combate 2: gana Tristan
-[SYNC] Arbitro registra combate 3: gana Fenrir
-[COMBATE] Fenrir vence a Hector (PAPEL vs PIEDRA)
-[COMBATE] Pollux vence a Denethor (PIEDRA vs TIJERA)
-[COMBATE] Tristan vence a Eomer (PAPEL vs PIEDRA)
-[SYNC] Arena 1 liberada, quedan libres 1
-[SYNC] Arena 2 liberada, quedan libres 2
-[SYNC] Arena 4 liberada, quedan libres 3
-[SYNC] Arena 1 ocupada, quedan libres 2
-[COMBATE] Faramir vs Ryu comienza en la arena 1
-[SYNC] Arena 2 ocupada, quedan libres 1
-[COMBATE] Brutus vs Ragnar comienza en la arena 2
-[SYNC] Arena 4 ocupada, quedan libres 0
-[COMBATE] Lugh vs Galadriel comienza en la arena 4
-[COMBATE] Achilles y Tsubasa empatan con PAPEL
-[SYNC] Arbitro registra combate 4: gana Ryu
-[SYNC] Arbitro registra combate 5: gana Lugh
-[COMBATE] Ryu vence a Faramir (TIJERA vs PAPEL)
-[COMBATE] Lugh vence a Galadriel (TIJERA vs PAPEL)
-[SYNC] Arbitro registra combate 6: gana Brutus
-[COMBATE] Brutus vence a Ragnar (TIJERA vs PAPEL)
-[SYNC] Arena 1 liberada, quedan libres 1
-[SYNC] Arena 4 liberada, quedan libres 2
-[SYNC] Arena 2 liberada, quedan libres 3
-[SYNC] Arena 1 ocupada, quedan libres 2
-[COMBATE] Leonidas vs Isolde comienza en la arena 1
-[COMBATE] Achilles y Tsubasa empatan con PIEDRA
-[COMBATE] Leonidas y Isolde empatan con PAPEL
-[SYNC] Arbitro registra combate 7: gana Tsubasa
-[COMBATE] Tsubasa vence a Achilles (PIEDRA vs TIJERA)
-[SYNC] Arena 3 liberada, quedan libres 3
-[COMBATE] Leonidas y Isolde empatan con PAPEL
-[COMBATE] Leonidas y Isolde empatan con PAPEL
-[SYNC] Arbitro registra combate 8: gana Isolde
-[COMBATE] Isolde vence a Leonidas (TIJERA vs PAPEL)
-[SYNC] Arena 1 liberada, quedan libres 4
-[RONDA] Fin de ronda 1, avanzan 8
-[RONDA] Inicia ronda 2 con 8 jugadores
-[SYNC] Arena 1 ocupada, quedan libres 3
-[COMBATE] Pollux vs Tristan comienza en la arena 1
-[SYNC] Arena 2 ocupada, quedan libres 2
-[SYNC] Arena 3 ocupada, quedan libres 1
-[COMBATE] Lugh vs Brutus comienza en la arena 2
-[COMBATE] Tsubasa vs Isolde comienza en la arena 3
-[SYNC] Arena 4 ocupada, quedan libres 0
-[COMBATE] Fenrir vs Ryu comienza en la arena 4
-[SYNC] Arbitro registra combate 1: gana Isolde
-[COMBATE] Isolde vence a Tsubasa (PAPEL vs PIEDRA)
-[SYNC] Arbitro registra combate 2: gana Pollux
-[COMBATE] Lugh y Brutus empatan con TIJERA
-[SYNC] Arena 3 liberada, quedan libres 1
-[COMBATE] Pollux vence a Tristan (PAPEL vs PIEDRA)
-[SYNC] Arena 1 liberada, quedan libres 2
-[SYNC] Arbitro registra combate 3: gana Ryu
-[COMBATE] Ryu vence a Fenrir (TIJERA vs PAPEL)
-[SYNC] Arena 4 liberada, quedan libres 3
-[SYNC] Arbitro registra combate 4: gana Lugh
-[COMBATE] Lugh vence a Brutus (TIJERA vs PAPEL)
-[SYNC] Arena 2 liberada, quedan libres 4
-[RONDA] Fin de ronda 2, avanzan 4
-[RONDA] Inicia ronda 3 con 4 jugadores
-[SYNC] Arena 1 ocupada, quedan libres 3
-[COMBATE] Isolde vs Pollux comienza en la arena 1
-[SYNC] Arena 2 ocupada, quedan libres 2
-[COMBATE] Ryu vs Lugh comienza en la arena 2
-[SYNC] Arbitro registra combate 1: gana Isolde
-[COMBATE] Isolde vence a Pollux (PAPEL vs PIEDRA)
-[COMBATE] Ryu y Lugh empatan con TIJERA
-[SYNC] Arena 1 liberada, quedan libres 3
-[COMBATE] Ryu y Lugh empatan con TIJERA
-[COMBATE] Ryu y Lugh empatan con TIJERA
-[SYNC] Arbitro registra combate 2: gana Lugh
-[COMBATE] Lugh vence a Ryu (TIJERA vs PAPEL)
-[SYNC] Arena 2 liberada, quedan libres 4
-[RONDA] Fin de ronda 3, avanzan 2
-[RONDA] Inicia ronda 4 con 2 jugadores
-[SYNC] Arena 1 ocupada, quedan libres 3
-[COMBATE] Isolde vs Lugh comienza en la arena 1
-[SYNC] Arbitro registra combate 1: gana Lugh
-[COMBATE] Lugh vence a Isolde (TIJERA vs PAPEL)
-[SYNC] Arena 1 liberada, quedan libres 4
-[RONDA] Fin de ronda 4, avanzan 1
-[RONDA] Campeon del torneo: Lugh
+[RONDA] Inicia ronda 1 con 8 jugadores
+[SYNC] Arena ocupada, quedan libres 2
+[SYNC] Arena ocupada, quedan libres 1
+[SYNC] Arena ocupada, quedan libres 0
+[COMBATE] Hayato vs Uesugi comienza
+[COMBATE] Amara vs Thranduil comienza
+[COMBATE] Scheherazade vs Aragorn comienza
+[COMBATE] Uesugi vence a Hayato (PIEDRA vs TIJERA)
+[COMBATE] Thranduil vence a Amara (TIJERA vs PAPEL)
+[COMBATE] Scheherazade y Aragorn empatan con PAPEL
+[SYNC] Arbitro registra combate 1: gana Uesugi
+[SYNC] Arbitro registra combate 2: gana Thranduil
+[SYNC] Arena liberada, quedan libres 1
+[SYNC] Arena liberada, quedan libres 2
+[SYNC] Arena ocupada, quedan libres 1
+[COMBATE] Glorfindel vs Isamu comienza
+[COMBATE] Scheherazade y Aragorn empatan con TIJERA
+[COMBATE] Glorfindel vence a Isamu (PAPEL vs PIEDRA)
+[SYNC] Arbitro registra combate 3: gana Glorfindel
+[SYNC] Arena liberada, quedan libres 2
+[COMBATE] Scheherazade y Aragorn empatan con PIEDRA
+[COMBATE] Scheherazade y Aragorn empatan con PAPEL
+[COMBATE] Aragorn vence a Scheherazade (TIJERA vs PAPEL)
+[SYNC] Arbitro registra combate 4: gana Aragorn
+[SYNC] Arena liberada, quedan libres 3
+[RONDA] Fin de ronda 1, avanzan 4
+[RONDA] Inicia ronda 2 con 4 jugadores
+[SYNC] Arena ocupada, quedan libres 2
+[COMBATE] Uesugi vs Thranduil comienza
+[SYNC] Arena ocupada, quedan libres 1
+[COMBATE] Glorfindel vs Aragorn comienza
+[COMBATE] Aragorn vence a Glorfindel (PAPEL vs PIEDRA)
+[SYNC] Arbitro registra combate 1: gana Aragorn
+[COMBATE] Uesugi y Thranduil empatan con TIJERA
+[SYNC] Arena liberada, quedan libres 2
+[COMBATE] Uesugi y Thranduil empatan con PAPEL
+[COMBATE] Uesugi vence a Thranduil (TIJERA vs PAPEL)
+[SYNC] Arbitro registra combate 2: gana Uesugi
+[SYNC] Arena liberada, quedan libres 3
+[RONDA] Fin de ronda 2, avanzan 2
+[RONDA] Inicia ronda 3 con 2 jugadores
+[SYNC] Arena ocupada, quedan libres 2
+[COMBATE] Aragorn vs Uesugi comienza
+[COMBATE] Uesugi vence a Aragorn (PAPEL vs PIEDRA)
+[SYNC] Arbitro registra combate 1: gana Uesugi
+[SYNC] Arena liberada, quedan libres 3
+[RONDA] Fin de ronda 3, avanzan 1
+[RONDA] Campeon del torneo: Uesugi
+CAMPEON DEL TORNEO: Uesugi (3 combates ganados)

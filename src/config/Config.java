@@ -5,8 +5,8 @@ public class Config {
     public static final int INTERVALO_RENDER_MS = 500;
     public static final int PAUSA_ENTRE_RONDAS_MS = 3000;
     public static final int MAX_JUGADORES = 128;
-    public static final int MIN_JUGADORES = 4;
-    public static final int ARENAS_DISPONIBLES = 4;
+    public static final int MIN_JUGADORES = 8;
+    public static final int ARENAS_DISPONIBLES = 3;
 
     public static final String[] NOMBRES = {
         "Aragorn", "Legolas", "Gimli", "Boromir", "Faramir", "Eowyn", "Theoden", "Galadriel", "Elrond", "Celeborn",
