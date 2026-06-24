@@ -29,6 +29,7 @@ public class Torneo {
             vivos = arbitro.getGanadores();
             Logger.ronda("Fin de ronda " + numero + ", avanzan " + vivos.size());
             numero++;
+            System.out.println("---------------------------");
             dormir(Config.PAUSA_ENTRE_RONDAS_MS);
         }
         Jugador campeon = vivos.get(0);
